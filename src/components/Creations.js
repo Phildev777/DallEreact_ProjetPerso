@@ -8,36 +8,56 @@ const Creations = () => {
 
     const avatars = [
         {
-            description: "Nebula in a bottle",
-            picture: "src/components/images/nebulainbottle1.png",
-            picture1: "./images/photo.png"
+            description: "A flying car accident in Dali art",
+            picture: "../../images/carsDali(1).png",
+            picture1: "../../images/carsDali(2).png",
+            picture2: "../../images/carsDali(3).png",
+            picture3: "../../images/carsDali(4).png",
         },
         {
-            description: "Sym",
-            picture: "https://placekitten.com/200/139"
+            description: "cat on mars eating a pizza vanghog style",
+            picture: "../../images/chatMars(1).png",
+            picture1: "../../images/chatMars(2).png",
+            picture2: "../../images/chatMars(3).png",
+            picture3: "../../images/chatMars(4).png",
+        }, {
+            description: "Colosseum on fire Van Gohg art",
+            picture: "../../images/coliséeEnFeu(1).png",
+            picture1: "../../images/coliséeEnFeu(2).png",
+            picture2: "../../images/coliséeEnFeu(3).png",
+            picture3: "../../images/coliséeEnFeu(4).png",
+        }, {
+            description: "cyborg surfer on the surface of Venus",
+            picture: "../../images/cyborgSurf(1).png",
+            picture1: "../../images/cyborgSurf(2).png",
+            picture2: "../../images/cyborgSurf(3).png",
+            picture3: "../../images/cyborgSurf(4).png",
+        }, {
+            description: "A dragon spits footballs to destroy a 3D wall",
+            picture: "../../images/dragonBallon(1).png",
+            picture1: "../../images/dragonBallon(2).png",
+            picture2: "../../images/dragonBallon(3).png",
+            picture3: "../../images/dragonBallon(4).png",
+        }, {
+            description: "mirage in a red desert representing a futuristic city in cartoon",
+            picture: "../../images/mirageRouge(1).png",
+            picture1: "../../images/mirageRouge(2).png",
+            picture2: "../../images/mirageRouge(3).png",
+            picture3: "../../images/mirageRouge(4).png",
         },
-        {
-            description: "Léo",
-            picture: "https://placekitten.com/200/90"
-        },
-        {
-            description: "Milo",
-            picture: "https://placekitten.com/200/194"
-        },
-        {
-            description: "Charly",
-            picture: "https://placekitten.com/200/179"
-        },
+
     ];
-    return <div className="cards">
+    return <div>
 
-        <ul>
-            {avatars.map((avatar) => {
-                return <Avatar{...avatar} />
-            })};
-        </ul>
+        <div className="cards">
+
+            <ul>
+                {avatars.map((avatar) => {
+                    return <Avatar{...avatar} />
+                })};
+            </ul>
+        </div>
     </div>
-
 
 
 

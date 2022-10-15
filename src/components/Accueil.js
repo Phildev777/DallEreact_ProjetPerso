@@ -6,7 +6,12 @@ import React from 'react';
 
 
 function Accueil() {
-    return <h2>Dall-E's inspirations</h2>
+    return <div className="home-page">
+
+        <img src="../../images/dall-eAccueil.jpg" alt="logo Dall-E" />
+
+    </div>
+
 
 }
 
