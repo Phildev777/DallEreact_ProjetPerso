@@ -1,8 +1,10 @@
 import React from 'react';
-import './Style.css';
+import '../Style.css';
 import Avatar from './Funccreations';
 
 const Creations = () => {
+
+
 
     const avatars = [
         {
@@ -11,7 +13,7 @@ const Creations = () => {
             picture1: "./images/photo.png"
         },
         {
-            description: "Symba",
+            description: "Sym",
             picture: "https://placekitten.com/200/139"
         },
         {
@@ -25,17 +27,21 @@ const Creations = () => {
         {
             description: "Charly",
             picture: "https://placekitten.com/200/179"
-        }
+        },
     ];
-    return (
-        <div className="App">
-            <div className="App">{avatars.map((avatar) => {
+    return <div className="cards">
+
+        <ul>
+            {avatars.map((avatar) => {
                 return <Avatar{...avatar} />
             })};
-            </div>
-        </div>
+        </ul>
+    </div>
 
-    );
+
+
+
+
 };
 
 export default Creations;
