@@ -1,36 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Jura:wght@300&display=swap');
 
+:root {
+    --primary-color: #2B2B2A;
+    --text-color: rgb(211, 151, 0);
+    --text-shadow: 0 1px 0 #585857, 0 2px 0#585857, 0 3px 0 #585857, 0 4px 0 #585857, 0 5px 0#585857, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+    --font-family: 700 30px 'Gruppo';
+}
+
 .App-header {
     display: flex;
     justify-content: space-around;
     list-style: none;
-    text-shadow: 3px 4px 6px #334B70, 0 0 1em #334B70, 0 0 0.2em #334B70;
-    background-color: black;
+
+
 }
+
+
 
 
 h1 {
     font-family: 'Jura', sans-serif;
     text-align: center;
     font-size: 64px;
-    /*color: rgb(211, 151, 0);
-    background-color: black;
 
-    
-    text-shadow: 3px 4px 6px #334B70, 0 0 1em #334B70, 0 0 0.2em #334B70;*/
-    color: #FFFFFF;
-    background: black;
-    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
-    color: rgb(211, 151, 0);
+    text-shadow: var(--text-shadow);
+    color: var(--text-color);
 
 }
 
 .liquid {
     text-transform: uppercase;
-    font: 700 30px 'Gruppo';
+    font: var(--font-family);
     text-decoration: none;
-    color: rgb(211, 151, 0);
+
+    text-shadow: var(--text-shadow);
+    color: var(--text-color);
+
 }
+
+
+.liquid:hover {
+    color: #2B2B2A;
+
+    padding: 20px;
+    transform: scale(1.2);
+    background-color: #F2F3CC;
+    transition: background-color .8s ease;
+    -webkit-border-radius: 12px 12px 0px 0px;
+    -moz-border-radius: 12px 12px 0px 0px;
+    border-radius: 12px 12px 0px 0px;
+
+}
+
+.page-complet {
+    background-color: var(--primary-color);
+}
+
+.footer-base {
+
+    height: 50px;
+    text-align: center;
+    font: var(--font-family);
+    text-shadow: var(--text-shadow);
+    color: var(--text-color);
+}
+
+/*----------font en attente--------------*/
+
+
+
+/*color: rgb(211, 151, 0);
+    background-color: black;
+
+    
+    text-shadow: 3px 4px 6px #334B70, 0 0 1em #334B70, 0 0 0.2em #334B70;*/
+
+/*---------------------------------------------------*/
 
 /*--------------Animation en attente--------------*/
 /*li {

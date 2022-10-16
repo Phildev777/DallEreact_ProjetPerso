@@ -10,31 +10,45 @@ class App extends Component {
     render() {
         return (
             <Router>
-                <header>
-                    <h1>Dall-E's inspirations</h1>
+                <div className="page-complet">
+                    <header>
+                        <div className="header-complet">
+                            <h1>Dall-E's inspirations</h1>
 
-                    <div className='App'>
+                            <div className='App'>
 
-                        <ul className="App-header">
+                                <ul className="App-header">
 
-                            <li>
-                                <Link to="/" className='liquid'><span>Home</span></Link>
-                            </li>
-                            <li>
-                                <Link to="/Creations" className='liquid'><span>Creations</span></Link>
-                            </li>
-                            <li><Link to="/Infos" className='liquid'><span>Infos</span></Link>
-                            </li>
+                                    <li>
+                                        <Link to="/" className='liquid'><span>Home</span></Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/Creations" className='liquid'><span>Creations</span></Link>
+                                    </li>
+                                    <li><Link to="/Infos" className='liquid'><span>Infos</span></Link>
+                                    </li>
 
 
-                        </ul>
-                        <Routes>
-                            <Route exact path='/' element={< Accueil />}></Route>
-                            <Route exact path='/Creations' element={< Creations />}></Route>
-                            <Route exact path='/Infos' element={< Infos />}></Route>
-                        </Routes>
-                    </div>
-                </header>
+                                </ul>
+                                <Routes>
+                                    <Route exact path='/' element={< Accueil />}></Route>
+                                    <Route exact path='/Creations' element={< Creations />}></Route>
+                                    <Route exact path='/Infos' element={< Infos />}></Route>
+                                </Routes>
+                            </div>
+                        </div>
+                    </header>
+                    <body>
+
+                    </body>
+                    <footer>
+                        <div className="footer-base">
+                            <p>Creator : BERRA Philippe octobre 2022</p>
+
+                        </div>
+
+                    </footer>
+                </div>
             </Router>
 
         );
