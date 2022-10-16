@@ -2,29 +2,48 @@
 
 :root {
     --primary-color: #2B2B2A;
-    --text-color: rgb(211, 151, 0);
-    --text-shadow: 0 1px 0 #585857, 0 2px 0#585857, 0 3px 0 #585857, 0 4px 0 #585857, 0 5px 0#585857, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+    --text-color: #00C9B0;
+    --title-color: rgb(211, 151, 0);
+    --article-nav-color: #F2F3CC;
+    --text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
     --font-family: 700 30px 'Gruppo';
 }
 
 .App-header {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     list-style: none;
+    gap: 50px;
+    padding-right: 50px;
 
+}
+
+.logo {
+    width: 10%;
+
+}
+
+#loH1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
 
 }
 
 
 
 
+
 h1 {
+
+    padding-top: 20px;
+    margin-top: 0;
     font-family: 'Jura', sans-serif;
     text-align: center;
     font-size: 64px;
-
+    margin-bottom: 0;
     text-shadow: var(--text-shadow);
-    color: var(--text-color);
+    color: var(--title-color);
 
 }
 
@@ -34,7 +53,7 @@ h1 {
     text-decoration: none;
 
     text-shadow: var(--text-shadow);
-    color: var(--text-color);
+    color: var(--article-nav-color);
 
 }
 
@@ -44,7 +63,7 @@ h1 {
 
     padding: 20px;
     transform: scale(1.2);
-    background-color: #F2F3CC;
+    background-color: var(--article-nav-color);
     transition: background-color .8s ease;
     -webkit-border-radius: 12px 12px 0px 0px;
     -moz-border-radius: 12px 12px 0px 0px;
@@ -62,7 +81,7 @@ h1 {
     text-align: center;
     font: var(--font-family);
     text-shadow: var(--text-shadow);
-    color: var(--text-color);
+    color: var(--title-color);
 }
 
 /*----------font en attente--------------*/

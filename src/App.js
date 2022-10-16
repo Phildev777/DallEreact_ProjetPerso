@@ -12,8 +12,12 @@ class App extends Component {
             <Router>
                 <div className="page-complet">
                     <header>
+
                         <div className="header-complet">
-                            <h1>Dall-E's inspirations</h1>
+                            <div id="loH1">
+                                <h1>Dall-E's inspirations</h1>
+                                <img src="https://openai.com/assets/images/favicon.svg?v=7c363146dc" alt="logo" className='logo' />
+                            </div>
 
                             <div className='App'>
 

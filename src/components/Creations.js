@@ -45,9 +45,19 @@ const Creations = () => {
             picture2: "../../images/mirageRouge(3).png",
             picture3: "../../images/mirageRouge(4).png",
         },
+        {
+            description: "mirror overlooking a plant world dali art",
+            picture: "../../images/miroirDali(1).png",
+            picture1: "../../images/miroirDali(2).png",
+            picture2: "../../images/miroirDali(3).png",
+            picture3: "../../images/miroirDali(4).png",
+        },
 
     ];
     return <div>
+        <h2>
+            Creations
+        </h2>
 
         <div className="cards">
 
