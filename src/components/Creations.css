@@ -1,0 +1,26 @@
+.description {
+    font: var(--font-family);
+    color: var(--text-color);
+    text-shadow: var(--text-shadow);
+
+}
+
+img {
+    width: 23%;
+    border-radius: 18px;
+    margin-right: 20px;
+
+
+}
+
+button {
+    display: none;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    text-shadow: var(--text-shadow);
+    color: var(--title-color);
+    font-size: 45px;
+}

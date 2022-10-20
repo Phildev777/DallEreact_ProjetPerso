@@ -1,0 +1,28 @@
+h2 {
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    text-shadow: var(--text-shadow);
+    color: var(--title-color);
+    font-size: 45px;
+}
+
+.article {
+    font: var(--font-family);
+    width: 100%;
+}
+
+.article-title {
+    color: var(--text-color);
+    text-shadow: var(--text-shadow);
+}
+
+.article-text {
+    color: var(--article-nav-color);
+}
+
+.sous-titre1,
+.sous-titre2,
+.source {
+
+    color: var(--title-color);
+}
